@@ -341,7 +341,7 @@ services:
   # MySQL Database
   # ------------------------------------------------------------
   mysql:
-    image: devilbox/mysql:${MYSQL_SERVER}-0.21
+    image: rok666/mysql:${MYSQL_SERVER}
     hostname: mysql
 
     environment:
