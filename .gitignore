@@ -240,3 +240,8 @@ $RECYCLE.BIN/
 
 ###### VS Code ######
 /.vscode
+
+###### My File ######
+gulp_core.sh
+gulp_landing.sh
+gulp_shared.sh
