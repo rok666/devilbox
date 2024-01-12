@@ -25,11 +25,13 @@
 ; Use these settings to enable Xdebug for PHP
 ; Make sure to read up on Xdebug some settings might significantly slow down requests.
 ; The following is just an example configuration and should be adjusted
-xdebug.mode               = debug
+xdebug.mode               = profile,debug
 xdebug.start_with_request = yes
 xdebug.remote_handler     = dbgp
-xdebug.remote_port        = 9000
-xdebug.idekey             = PHPSTORM
-xdebug.remote_log         = /var/log/php/xdebug.log
+xdebug.client_port        = 9003
+xdebug.client_host        = 172.28.159.107
+xdebug.idekey             = vsc
+xdebug.log                = /var/log/php/xdebug.log
+xdebug.output_dir         = /var/log/php
 
 ; vim: set ft=dosini:
